@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 12px;
+}
+h1 {
+  font-family: "Inter";
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+img {
+  border-radius: 100%;
+  height: 100px;
+  width: auto;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 30px;
+}
+.word {
+  color: hsla(0, 0%, 100%, 0.575);
+  text-align: center;
+  padding: 0px;
+}
+
+.country {
+  color: hsl(75, 94%, 57%);
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  margin-left: 55px;
+}
+
+.git {
+  padding: 13px;
+  margin: auto;
+  background-color: hsl(0, 0%, 20%);
+  outline: none;
+  color: hsl(0, 0%, 100%);
+  border: transparent;
+  border-radius: 10px;
+  width: 80%;
+  font-weight: 600;
+}
+
+.attribution {
+  padding: 10%;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .card {
+    min-width: 30%;
+    max-width: 30%;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
